@@ -56,10 +56,7 @@ const cvcupdate = document.querySelector(".cvc-update")
     window.location.reload();
 })
 
-function lettersonly(holdername){
-  var regex = /[^a-zA-Z ]+$/
-  holdername.value = holdername.value.replace(regex, "Please Input a valid Name")
-}
+
 
   function checkInputs(){
    
